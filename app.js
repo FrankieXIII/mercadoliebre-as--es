@@ -7,7 +7,7 @@ const port = process.env.port || 3000;
 
 
 app.listen(port, ()=>{
-    console.log('Servidor funcionando');
+    console.log('Servidor funcionando' + port);
 });
 
 app.get('/', (req,res)=>{
